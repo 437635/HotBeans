@@ -1,0 +1,29 @@
+.aboutUsBox{
+    background-color: var(--boxes);
+    border-radius: 15px;
+    width: 1890px;
+    height: 750px;
+    margin-left: 15px;
+    margin-top: 15px;
+    float: left;
+    position: absolute;
+}
+
+/* Media Query to Scale Content for Smaller Computer Screens like Laptops */
+@media only screen and (max-width: 1700px){
+    .aboutUsBox{
+        background-color: var(--boxes);
+        border-radius: 15px;
+        width: 1480px;
+        height: 710px;
+        margin-left: 15px;
+        margin-top: 15px;
+        float: left;
+        position: absolute;
+    }
+}
+
+/* Media Query to Scale Content for Much Smaller Screens like Phones*/
+@media only screen and (max-width: 500px){
+
+}

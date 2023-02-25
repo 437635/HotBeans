@@ -1,0 +1,128 @@
+.qualificationsBoxes{
+    background-color: var(--boxes);
+    border-radius: 15px;
+    width: 250px;
+    height: 500px;
+    margin-left: 15px;
+    margin-top: 15px;
+    float: left;
+}
+
+.qualificationsLogo20025{
+    width: 200px;
+    padding-left: 25px;
+}
+
+.qualificationsLogo2505{
+    width: 250px;
+    padding-left: 5px;
+}
+
+.qualificationsBoxText5{
+    padding-top: 5px;
+}
+
+.qualificationsBoxText70{
+    padding-top: 70px;
+}
+
+.qualificationsBoxText105{
+    padding-top: 105px;
+}
+
+.qualificationsBoxTextMixedOne{
+    padding-top: 70px;
+}
+
+.qualificationsBoxTextMixedTwo{
+    padding-top: 70px;
+}
+
+.qualificationsGoogleOne{
+    padding-top: 140px;
+}
+
+.qualificationsGitLab{
+    padding-top: 110px;
+}
+
+.qualificationsAzure{
+    padding-top: 100px;
+}
+
+.qualificationsAWS{
+    padding-top: 90px;
+}
+
+.qualificationsGoogleTwo{
+    padding-top: 120px;
+}
+
+/* Media Query to Scale Content for Smaller Computer Screens like Laptops */
+@media only screen and (max-width: 1700px){
+    .qualificationsBoxes{
+        background-color: var(--boxes);
+        border-radius: 15px;
+        width: 200px;
+        height: 440px;
+        margin-left: 5px;
+        margin-top: 15px;
+        float: left;
+    }
+    
+    .qualificationsLogo20025{
+        width: 150px;
+        padding-left: 25px;
+    }
+    
+    .qualificationsLogo2505{
+        width: 175px;
+        padding-left: 5px;
+    }
+    
+    .qualificationsBoxText5{
+        padding-top: 5px;
+    }
+    
+    .qualificationsBoxText70{
+        padding-top: 70px;
+    }
+    
+    .qualificationsBoxText105{
+        padding-top: 105px;
+    }
+    
+    .qualificationsBoxTextMixedOne{
+        padding-top: 40px;
+    }
+    
+    .qualificationsBoxTextMixedTwo{
+        padding-top: 70px;
+    }
+    
+    .qualificationsGoogleOne{
+        padding-top: 60px;
+    }
+    
+    .qualificationsGitLab{
+        padding-top: 50px;
+    }
+    
+    .qualificationsAzure{
+        padding-top: 15px;
+    }
+    
+    .qualificationsAWS{
+        padding-top: 15px;
+    }
+    
+    .qualificationsGoogleTwo{
+        padding-top: 40px;
+    }
+    
+}
+
+/* Media Query to Scale Content for Much Smaller Screens like Phones*/
+@media only screen and (max-width: 500px){
+
+}

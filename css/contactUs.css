@@ -1,0 +1,93 @@
+.contactUsBoxStyle{
+    width: 500px;
+    height: 225px;
+    background-color:var(--boxes);
+    border-radius: 15px;
+    float: left;
+    position: absolute; 
+}
+
+.contactUsBoxOne{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.contactUsBoxTwo{
+    margin-left: 20px;
+    margin-top: 250px;
+}
+
+.contactUsBoxThree{
+    margin-left: 20px;
+    margin-top: 485px;
+}
+
+.contactUsInstagram{
+    float: left;
+    position: absolute;
+    padding-left: 550px;
+    width: 650px;
+}
+
+.contactUsBoxFour{
+    width: 630px;
+    height: 700px;
+    background-color:var(--boxes);
+    border-radius: 15px;
+    margin-left: 1250px;
+    margin-top: 20px;
+    float: left;
+    position: absolute;
+}
+
+/* Media Query to Scale Content for Smaller Computer Screens like Laptops */
+@media only screen and (max-width: 1700px){
+    .contactUsBoxStyle{
+        width: 500px;
+        background-color:var(--boxes);
+        border-radius: 15px;
+        float: left;
+        position: absolute; 
+    }
+
+    .contactUsBoxOne{
+        margin-left: 20px;
+        margin-top: 15px;
+        height: 200px;
+    }
+    
+    .contactUsBoxTwo{
+        margin-left: 20px;
+        margin-top: 230px;
+        height: 160px;
+    }
+    
+    .contactUsBoxThree{
+        margin-left: 20px;
+        margin-top: 410px;
+        height: 160px;
+    }
+    
+    .contactUsInstagram{
+        float: left;
+        position: absolute;
+        padding-left: 480px;
+        width: 520px;
+    }
+    
+    .contactUsBoxFour{
+        width: 530px;
+        height: 560px;
+        background-color:var(--boxes);
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-left: 950px;
+        float: left;
+        position: absolute;
+    }
+}
+
+/* Media Query to Scale Content for Much Smaller Screens like Phones*/
+@media only screen and (max-width: 500px){
+
+}

@@ -1,0 +1,208 @@
+/* index.html only */
+.indexBoxOne{
+    background-color: var(--boxes); 
+    border-radius: 15px; 
+    width: 1400px; 
+    height: 490px; 
+    margin-left: 15px; 
+    margin-top: 15px; 
+    display: flex; 
+    float: left; 
+    position: absolute;
+}
+
+.icon200{
+    width: 170px;
+    height: 170px;
+    margin-top: 180px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+.logoXL{
+    width: 1000px;
+    height: 170px;
+    margin-top: 180px;
+    margin-left: 200px;
+    position: absolute;
+}
+
+.indexBoxTwo{
+    background-color: var(--boxes);
+    border-radius: 15px;
+    width: 440px;
+    height: 490px;
+    margin-left: 1450px;
+    margin-top: 15px;
+    float: left;
+    position: absolute;
+}
+
+.customerReviews{
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
+.languagesLongBox{
+    margin-top: 535px;
+    position: absolute;
+    display: flex;
+}
+
+.languageLogos{
+    float: left;
+    padding-top: 35px;
+    height: 150px;
+}
+
+.htmlLogo{
+    padding-left: 40px;
+    width: 150px;
+}
+
+.cssLogo{
+    padding-left: 40px;
+    width: 110px;;
+}
+
+.jsReactLogo{
+    padding-left: 60px;
+    width: 150px;
+}
+
+.phpLogo{
+    padding-left: 60px;
+    width: 200px;
+}
+
+.javaLogo{
+    padding-left: 60px;
+    width: 90px;
+}
+
+.csLogo{
+    padding-left: 50px;
+    width: 150px;
+}
+
+.sqlLogo{
+    padding-left: 40px;
+    width: 240px;
+}
+
+.pythonLogo{
+    padding-left: 45px;
+    width: 150px;
+}
+
+/* Media Query to Scale Content for Smaller Computer Screens like Laptops */
+@media only screen and (max-width: 1700px){
+    .indexBoxOne{
+        background-color: var(--boxes); 
+        border-radius: 15px; 
+        width: 1000px; 
+        height: 410px; 
+        margin-left: 15px; 
+        margin-top: 15px; 
+        display: flex; 
+        float: left; 
+        position: absolute;
+    }
+    
+    .icon200{
+        width: 180px;
+        height: 180px;
+        margin-left: 20px;
+        margin-top: 140px;
+        position: absolute;
+    }
+    
+    .logoXL{
+        width: 700px;
+        height: 100px;
+        margin-top: 180px;
+        margin-left: 220px;
+        position: absolute;
+    }
+    
+    .indexBoxTwo{
+        background-color: var(--boxes);
+        border-radius: 15px;
+        width: 440px;
+        height: 410px;
+        margin-left: 1060px;
+        margin-top: 15px;
+        float: left;
+        position: absolute;
+    }
+    
+    .customerReviews{
+        margin-left: 35px;
+        margin-top: 15px;
+    }
+    
+    .languagesLongBox{
+        margin-top: 440px;
+        position: absolute;
+        display: flex;
+    }
+
+    .languageLogos{
+        float: left;
+        padding-top: 35px;
+        height: 150px;
+    }
+    
+    .htmlLogo{
+        padding-left: 110px;
+        width: 80px;
+        height: 80px;
+    }
+    
+    .cssLogo{
+        padding-left: 40px;
+        width: 60px;
+        height: 80px;
+    }
+    
+    .jsReactLogo{
+        padding-left: 60px;
+        width: 80px;
+        height: 80px;
+    }
+    
+    .phpLogo{
+        padding-left: 60px;
+        width: 130px;
+        height: 80px;
+    }
+    
+    .javaLogo{
+        padding-left: 60px;
+        width: 60px;
+        height: 90px;
+    }
+    
+    .csLogo{
+        padding-left: 50px;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .sqlLogo{
+        padding-left: 40px;
+        width: 140px;
+        height: 75px;
+    }
+    
+    .pythonLogo{
+        padding-left: 45px;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* Media Query to Scale Content for Much Smaller Screens like Phones*/
+@media only screen and (max-width: 500px){
+
+}

@@ -1,0 +1,113 @@
+/* Elements Not in Media Queries Should Fit Most Screen Sizes as They Are */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Dark Theme Colour Definition */
+body{
+    --text: #AFABAB;
+    --background: #353535;
+    --boxes: #252525;
+    --accent: #E4862F;
+
+    background-color: var(--background);
+}
+
+/* Light Theme Colour Definiton */
+.light{
+    --text: #252525;
+    --background: #F2F2F2;
+    --boxes: #A0A0A0;
+}
+
+.navBar{
+    display: flex;
+    overflow: hidden;
+    background-color: var(--boxes);
+}
+
+.themeSwitcherButton{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: var(--accent);
+    border-color: #dd934e;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+button{
+    border-radius: 12px;
+    border-width: 3px;
+    width: 300px; 
+    height: 50px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.darkGreyButton{
+    color: var(--text);
+    border-color: var(--background);
+    background-color: var(--boxes);
+}
+
+.orangeButton{
+    color: var(--boxes);
+    border-color: #dd934e;
+    background-color: var(--accent);
+}
+
+h1{
+    color: var(--text);
+    font-size: 50px;
+}
+
+p{
+    color: var(--text);
+    font-size: 20px;
+}
+
+.longBox{
+    width: 1875px;
+    height: 225px;
+    background-color: var(--boxes);
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+::selection{
+    color: var(--boxes);
+    background-color: var(--accent);
+}
+
+/* Media Query to Scale Content for Smaller Computer Screens like Laptops */
+@media only screen and (max-width: 1700px){
+
+    button{
+        border-radius: 12px;
+        border-width: 3px;
+        width: 220px; 
+        height: 50px;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+
+    .longBox{
+        width: 1480px;
+        height: 150px;
+        background-color: var(--boxes);
+        border-radius: 15px;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+}
+
+
+/* Media Query to Scale Content for Much Smaller Screens like Phones*/
+@media only screen and (max-width: 500px){
+
+}

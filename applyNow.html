@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/applyNow.css">
+        <link rel="icon" type="image/png" sizes="32x32" href="resources/icon32.png">
+        <!-- js/themeSwitcher.js -->
+        <script src="js/applicationLogger.js"></script>
+        <title>HotBeans - Apply Now</title>
+    </head>
+    <body>
+        <div class="navBar">
+            <a href="index.html"><img src="resources/darkThemeLogo.png" id="navBarLogo" style=" width: 250px; margin-left: 15px; margin-top: 25px; margin-bottom:25px; vertical-align: middle;"></a>
+
+            <a href="aboutUs.html"><button class="darkGreyButton" style="margin-top: 20px; margin-left: 15px;"><h2 style="font-size: 30px;">About Us</h2></button></a>
+            <a href="contactUs.html"><button class="darkGreyButton" style="margin-top: 20px; margin-left: 15px;"><h2 style="font-size: 30px;">Contact Us</h2></button></a>
+            <a href="ourTeam.html"><button class="darkGreyButton" style="margin-top: 20px; margin-left: 15px;"><h2 style="font-size: 30px;">Our Team</h2></button></a>
+            <a href="qualifications.html"><button class="darkGreyButton" style="margin-top: 20px; margin-left: 15px;"><h2 style="font-size: 30px;">Qualifications</h2></button></a>
+            <a href="applyNow.html"><button class="darkGreyButton" style="margin-top: 20px; margin-left: 15px;"><h2 style="font-size: 30px;">Apply Now</h2></button></a>
+            
+            <button class="themeSwitcherButton" id="themeSwitcherButton"></button>
+            <script src="js/themeSwitcher.js"></script>
+        </div>
+
+        <h1 style="display: inline-block; padding-left: 15px; padding-top: 15px;">Apply </h1><h1 style="color: var(--accent); display: inline-block; padding-top: 15px;">&nbsp;Now</h1>
+
+
+        <div class="applyNowBoxOne">
+            <h2 style="font-size: 50px;">Front End Developer <p style="font-size: 20px; padding-top: 15px; padding-bottom: 180px;">Front end developers are programmers who work on the 'front end' or user interface of a website, they will primarily code in languages such as HTML, CSS and Javascript. A rough salary estimate for a front end developer is around £55,000</p> Back End Developer <p style="font-size: 20px; padding-top: 15px; padding-bottom: 180px;">Back end developers are programmers who work on the server side of things which will involve coding in languages such as PHP, SQL and even languages such as Python and C#. A rough salary estimate for a back end developer is around £64,000</p></h2> 
+        </div>
+
+           <form onsubmit="logApplication()">
+            <div class="applicationForm">
+                <h1 style="display: inline-block; padding-left: 20px; padding-top: 15px;">Application </h1><h1 style="color: var(--accent); display: inline-block;">&nbsp;Form</h1>
+
+                <input type="text" class="inputBox" placeholder="First Name" id="firstName" required>
+                <input type="text" class="inputBox" placeholder="Last Name" id="lastName" required>
+                <input type="text" class="inputBox" placeholder="Phone Number" id="phoneNumber" required>
+                <input type="text" class="inputBox" placeholder="Email" id="email" required>
+
+                <select name="Position to Apply For" id="position" class="dropDownMenu">
+                    <option value="frontEndDev">Front End Developer</option>
+                    <option value="backEndDev">Back End Devloper</option>
+                    <option value="uxuiDesigner">UX/UI Designer</option>
+                       <option value="systemArchitect">Systems Architect</option>
+                </select>
+
+                <button type=submit class="orangeButton" style="font-size: 30px; margin-left: 30px; margin-top: 90px; width: 640px;"> Submit</button>
+            </div>
+        </form>
+
+        <div class="applyNowBoxTwo">
+            <h2 style="font-size: 50px;">UI/UX Designer<p style="padding-top: 15px; padding-bottom: 145px;">UI/UX Deisngers are a vital part of website development teams, they are they people who design the user interface therefore will primarily be using tools such as Adobe Photoshop, Figma and Adobe XD. They should also have knowledge of HTML, CSS and Javascript. A rough salary estimate for a UX/UI designer is around £46,000</p>Systems Architect<p style="padding-top: 15px; padding-bottom: 180px;">Systems architects are the people who are resposible for building and configuring the network infrastructure and servers of which the website will run and rely on. Languages a systems architect should know consist of are Python, Java, C, C++ and C#. A rough salary estimate for a systems architect is around £76,000</p></h2>
+        </div>
+    </body>
+</html>
