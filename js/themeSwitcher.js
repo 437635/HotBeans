@@ -1,15 +1,18 @@
-const toggle = document.getElementById("themeSwitcherButton");
-const theme = localStorage.getItem("theme");
-const navBarLogo = document.getElementById("navBarLogo");
-const icon200 = document.getElementById("icon200");
-const logoXL = document.getElementById("logoXL");
-const customerReviews = document.getElementById("logoXL");
-const htmlLogo = document.getElementById("htmlLogo");
-const cssLogo = document.getElementById("cssLogo");
-const sqlLogo = document.getElementById("sqlLogo");
-const pythonLogo = document.getElementById("pythonLogo");
-const gitlabLogo = document.getElementById("gitlabLogo");
-const awsLogo = document.getElementById("awsLogo");
+// BREAK COMMENTS TO ALLOW DARK/LIGHT THEME IMAGE SWITCHING
+// BROKEN FEATURE AS OF 25/02/2023
+
+// const toggle = document.getElementById("themeSwitcherButton");
+// const theme = localStorage.getItem("theme");
+// const navBarLogo = document.getElementById("navBarLogo");
+// const icon200 = document.getElementById("icon200");
+// const logoXL = document.getElementById("logoXL");
+// const customerReviews = document.getElementById("logoXL");
+// const htmlLogo = document.getElementById("htmlLogo");
+// const cssLogo = document.getElementById("cssLogo");
+// const sqlLogo = document.getElementById("sqlLogo");
+// const pythonLogo = document.getElementById("pythonLogo");
+// const gitlabLogo = document.getElementById("gitlabLogo");
+// const awsLogo = document.getElementById("awsLogo");
 
 if (theme === "light"){
   document.body.classList.add("light");
@@ -19,8 +22,6 @@ document.addEventListener('DOMContentLoaded', function(){
   toggle.addEventListener("click", () =>{
     document.body.classList.toggle("light");
 
-// BREAK COMMENTS TO ALLOW DARK/LIGHT THEME IMAGE SWITCHING
-// BROKEN FEATURE AS OF 25/02/2023
 //    if (navBarLogo.src.match("resources/darkThemeLogo.png")){
 //      navBarLogo.src = "resources/lightThemeLogo.png";
 //    } else if (navBarLogo.src.match("resources/lightThemeLogo.png")){
