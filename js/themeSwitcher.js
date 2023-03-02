@@ -1,8 +1,8 @@
 // BREAK COMMENTS TO ALLOW DARK/LIGHT THEME IMAGE SWITCHING
 // BROKEN FEATURE AS OF 25/02/2023
 
-// const toggle = document.getElementById("themeSwitcherButton");
-// const theme = localStorage.getItem("theme");
+const toggle = document.getElementById("themeSwitcherButton");
+const theme = localStorage.getItem("theme");
 // const navBarLogo = document.getElementById("navBarLogo");
 // const icon200 = document.getElementById("icon200");
 // const logoXL = document.getElementById("logoXL");
